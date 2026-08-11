@@ -5,12 +5,10 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-
-
   return (
     <>
-     <h1>Redev</h1>
-     <p>Третье занятие: GitHub</p>
+      <h1>Redev</h1>
+      <p>Третье занятие: GitHub</p>
     </>
   )
 }
