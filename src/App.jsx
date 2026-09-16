@@ -1,14 +1,15 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { MainContent, Section } from "./components/Content";
-
+import Counter from "./components/Counter";
+import ToggleText from "./components/ToggleText";
+import LiveInput from "./components/LiveInput";
+import ColorText from "./components/ColorText";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Counter/>
+      <ToggleText/>
+      <LiveInput/>
+      <ColorText/>
     </div>
   );
 };
