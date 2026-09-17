@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import ChildComponent from "./ChildComponent"; 
-homework-08-02
-import SiblingComponent from "./SiblingComponent"; 
-
 import SiblingComponent from "./SiblingComponent";
- main
 
 const ParentComponent = () => {
     const [counter, setCounter] = useState(0);
@@ -35,10 +31,7 @@ const ParentComponent = () => {
             <button onClick={reset}>Сбросить</button>
             <button onClick={random}>Случайное значение</button>
             <button onClick={decrement}>Уменьшить на 1</button>
- homework-08-02
 
-
- main
             <ChildComponent name="Ola" counter={counter} />
             <SiblingComponent />
         </div>
