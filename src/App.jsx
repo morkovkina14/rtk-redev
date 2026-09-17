@@ -1,25 +1,21 @@
- homework-08-02
-import React from 'react'
-import ParentComponent from './components/ParentComponent'
 
-import React from "react";
-import ParentComponent from "./components/ParentComponent";
- main
+import User from "./components/User";
+import Tasks from "./components/Tasks";
+import Cart from "./components/Cart";
+
 
 const App = () => {
   return (
     <div>
- homework-08-02
-      <h1>Структура компонентов</h1>
 
- main
-      <ParentComponent />
+   <User/>
+   <Tasks/>
+   <Cart/>
+
     </div>
   )
 }
 
-homework-08-02
-export default App
 
 export default App;
- main
+ 
