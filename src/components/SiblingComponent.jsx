@@ -3,7 +3,10 @@ import React, { useState } from "react";
 const SiblingComponent = () => {
     const [text, setText] = useState("");
     
+ homework-08-02
 
+
+ main
     const handleChange = (e) => {
         setText(e.target.value);
     };
