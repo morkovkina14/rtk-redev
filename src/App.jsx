@@ -1,3 +1,4 @@
+
 import React, { useRef, useState } from 'react'
 import List from './components/List'
 
@@ -38,6 +39,7 @@ const App = () => {
         inputRef.current.value = ''
       }
     }
+
   }
 
   return (
@@ -45,6 +47,7 @@ const App = () => {
       <input type="text" ref={inputRef} onKeyDown={handleKeyDown} />
       <button onClick={handleFocus}>Фокус</button>
       <List users={users} handleClick={handleClick} />
+
     </div>
   )
 }
