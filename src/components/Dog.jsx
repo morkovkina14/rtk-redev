@@ -83,7 +83,7 @@ const Dod = () => {
   return (
     <>
       <h1>Галерея собак</h1>
-      <p>Картинки обновлена {update} раз(а)</p>
+      <p>Картинки обновлены {update} раз(а)</p>
       <SelectDog breeds={breeds} onChangeS={handleChangeS} />
       <InputDog count={state} handleChange={handleChange} />
       <ButtonDog handleClick={handleClick} />
